@@ -45,7 +45,7 @@ letter-spacing: 0.02em;
  letter-spacing: 0.02em;
  text-decoration: underline;
 }
-.address .link-address:hover
+.address .link-address:hover,
 .address .link-address:focus {
     color: #404bbf;
 }

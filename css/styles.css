@@ -1,137 +1,140 @@
 body {
-    font-family: "Roboto", sans-serif;
-    color: #434455;
-    background-color: #FFFFFF;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 2%;
-
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 2%;
 }
 .logo {
-    color: #4d5ae5;
-    font-family: Raleway, sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    text-transform: uppercase;
-    text-align: left;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
+  color: #4d5ae5;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-align: left;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 .span {
-    color: #2e2f42;
+  color: #2e2f42;
+}
+.page-nav {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
 }
 .page-nav .link {
-color: #2e2f42;
- font-weight: 500;
-font-size: 16px;
-text-align: left;
-line-height: 1.5;
-letter-spacing: 0.02em;
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: left;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .page-nav .link:hover,
 .page-nav .link:focus {
-    color: #404bbf;
+  color: #404bbf;
 }
 .address {
-    font-style: normal;
+  font-style: normal;
 }
 .address .link-address {
-  color: #434455; 
- font-weight: 400;
- font-size: 16px;
- text-align: right;
- line-height: 1.5;
- letter-spacing: 0.02em;
- text-decoration: underline;
+  color: #434455;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: right;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: underline;
 }
 .address .link-address:hover,
 .address .link-address:focus {
-    color: #404bbf;
+  color: #404bbf;
 }
 .page-title {
-    background-color: #2e2f42;
+  background-color: #2e2f42;
 }
 .page-title .title {
-    color: #FFFFFF;
-    font-size: 56px;
-    font-weight: 700;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-    text-align: center;
-
+  color: #ffffff;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 .button {
-font-family: "Roboto", sans-serif;
-color: #FFFFFF;
-background-color: #4D5AE5;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
-cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
 }
 .button:hover,
 button:focus {
-    background-color: #404BBF;
+  background-color: #404bbf;
 }
 .title {
-    color: #2e2f42;
-    font-weight: 500;
-    font-size: 20px;
-    letter-spacing: 0.02em;
-    line-height: 1.2;
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
 }
 .text {
-    color: #434455;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .section-team {
-    background-color: #F4F4FD;
+  background-color: #f4f4fd;
 }
 .section-title {
-    color: #2e2f42;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    text-transform: capitalize;
+  color: #2e2f42;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
 }
 .list-team {
-    background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 .class-title {
-    color: #2e2f42;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .class-text {
-    color: #434455;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
-ul {
-    list-style: none;
-    margin-left: 0;
-    padding-left: 0;
+.page-main {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
 }
 .footer {
-    background-color: #2E2F42;
+  background-color: #2e2f42;
 }
 .span-footer {
-    color: #f4f4fd;
+  color: #f4f4fd;
 }
 .footer .footer-text {
-    color: #F4F4FD;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-align: left;
+  color: #f4f4fd;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: left;
 }

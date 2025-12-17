@@ -96,18 +96,20 @@ img {
 .page-nav .link:focus {
   color: #404bbf;
 }
+.page-nav .link::after {
+content: '';
+width: 100%;
+position: absolute;
+left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
+}
 .page-nav .link:hover::after {
   display: block;
-  content: '';
-  width: 100%;
-  position: absolute;
-  left: 0;
-  bottom: -1px;
-  border-radius: 2px;
   min-width: 48px;
-  height: 4px;
   margin-top: 20px;
-  background-color: #404bbf;
 }
 .address-ul {
   font-style: normal;

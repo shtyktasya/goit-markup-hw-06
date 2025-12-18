@@ -95,7 +95,7 @@ img {
   color: #404bbf;
 }
 
-.page-nav .link-1::after {
+.page-nav .link-first::after {
   display: block;
   min-width: 48px;
   margin-top: 20px;

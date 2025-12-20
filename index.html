@@ -627,7 +627,7 @@
         <div class="subscribe">
           <p class="subscribe-text">Subscribe</p>
           <form class="footer-form" name="footer-name">
-            <label for="email">
+            <label for="email" class="footer-label">
               <input
                 id="email"
                 class="email"
@@ -662,62 +662,59 @@
           novalidate
         >
           <div class="modal-form-field">
-            <label class="form-label" for="username"
-              >Name
-
+            <label class="form-label" for="user-name">Name </label>
+            <div class="modal-form-wrapper">
               <input
                 class="form-input"
                 type="text"
-                name="username"
-                id="username"
+                name="user-name"
+                id="user-name"
                 required
               />
               <svg class="modal-form-icon" width="18" height="18">
                 <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
               </svg>
-            </label>
+            </div>
           </div>
 
           <div class="modal-form-field">
-            <label class="form-label" for="userphone"
-              >Phone
-
+            <label class="form-label" for="user-phone">Phone</label>
+            <div class="modal-form-wrapper">
               <input
                 class="form-input"
                 type="tel"
-                name="userphone"
-                id="userphone"
+                name="user-phone"
+                id="user-phone"
                 required
               />
               <svg class="modal-form-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-phone-black-18dp-1"></use>
               </svg>
-            </label>
+            </div>
           </div>
 
           <div class="modal-form-field">
-            <label class="form-label" for="useremail"
-              >Email
-
+            <label class="form-label" for="user-email">Email</label>
+            <div class="modal-form-wrapper">
               <input
                 class="form-input"
                 type="email"
-                name="useremail"
-                id="useremail"
+                name="user-email"
+                id="user-email"
                 required
               />
               <svg class="modal-form-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-email-black-18dp-1"></use>
               </svg>
-            </label>
+            </div>
           </div>
           <div class="modal-form-field">
-            <label class="form-label" for="usercomment"
+            <label class="form-label" for="user-comment"
               >Comment
               <textarea
                 class="form-textarea"
-                name="usercomment"
-                id="usercomment"
+                name="user-comment"
+                id="user-comment"
                 placeholder="Text input"
               ></textarea>
             </label>
@@ -726,11 +723,12 @@
           <div class="modal-form-agreement">
             <input
               type="checkbox"
-              id="usergreement"
-              name="usergreement"
+              id="user-privacy"
+              name="user-privacy"
+              value="true"
               class="agreement-input visually-hidden"
             />
-            <label for="usergreement" class="modal-form-box">
+            <label for="user-privacy" class="modal-form-box">
               <span class="custom-checkbox">
                 <svg class="custom-checkbox-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-Vector-3"></use>

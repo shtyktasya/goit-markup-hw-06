@@ -633,6 +633,11 @@ button:focus {
   margin-bottom: 16px;
 }
 .form-textarea {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
   display: block;
   border: 1px solid rgba(46, 47, 66, 0.4);
   background-color: transparent;
@@ -647,13 +652,7 @@ button:focus {
 .form-textarea:focus {
   border-color: #4d5ae5;
 }
-.form-textarea::placeholder {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-  color: rgba(46, 47, 66, 0.4);
-}
+
 .modal-form-agreement {
   margin-bottom: 24px;
 }

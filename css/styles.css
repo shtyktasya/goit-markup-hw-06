@@ -507,6 +507,10 @@ button:focus {
   color: #ffffff;
   cursor: pointer;
 }
+.footer-btn:hover,
+.footer-btn:focus {
+  background-color: #404bbf;
+}
 .btn-icon {
   fill: #ffffff;
   margin-left: 16px;

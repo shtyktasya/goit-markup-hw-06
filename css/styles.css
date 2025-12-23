@@ -45,7 +45,7 @@ img {
 
 .header .container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   margin-right: 0;
 }
@@ -56,19 +56,21 @@ img {
 }
 
 .container {
-  min-width: 320px;
+  max-width: 320px;
+  padding-left: 16px;
+  padding-right: 16px;
   margin: 0 auto;
-  padding: 0 10px;
 }
 @media only screen and (min-width: 768px) {
   .container {
-    min-width: 768px;
-    padding: 0 15px;
+    max-width: 768px;
   }
 }
 @media only screen and (min-width: 1158px) {
   .container {
-    max-width: 1440px;
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
@@ -83,6 +85,19 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   margin-right: 149px;
+}
+@media only screen and (min-width: 768px) {
+  .logo,
+  .logo-footer {
+    margin-right: 120px;
+  }
+}
+
+@media only screen and (min-width: 1158px) {
+  .logo,
+  .logo-footer {
+    margin-right: 76px;
+  }
 }
 .span {
   color: #2e2f42;
@@ -287,9 +302,26 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 1440px;
+  max-width: 320px;
   min-height: 432px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0 auto;
 }
+@media only screen and (min-width: 768px) {
+  .page-title .container {
+    max-width: 768px;
+  }
+}
+
+@media only screen and (min-width: 1158px) {
+  .page-title .container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
 .page-title {
   background-color: #2e2f42;
 
@@ -424,7 +456,34 @@ button:focus {
   overflow: hidden;
 }
 .content {
-  padding: 120px 0;
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+@media only screen and (min-width: 1158px) {
+  .content {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+}
+.content .container {
+  max-width: 320px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0 auto;
+}
+@media only screen and (min-width: 768px) {
+  .content .container {
+    max-width: 768px;
+  }
+}
+
+@media only screen and (min-width: 1158px) {
+  .content .container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 .content-ul {
   display: flex;
@@ -437,6 +496,7 @@ button:focus {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 72px;
+    width: 100%;
   }
 }
 
@@ -480,8 +540,53 @@ button:focus {
 }
 .content .title,
 .content .text {
-  max-width: 356px;
+  width: 288;
 }
+@media only screen and (min-width: 768px) {
+  .content .title,
+  .content .text {
+    width: 356px;
+  }
+}
+
+@media only screen and (min-width: 1158px) {
+  .content .title,
+  .content .text {
+    width: 264px;
+  }
+}
+.content .text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.content .title {
+  font-weight: 700;
+  font-size: 36px;
+
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+@media only screen and (min-width: 768px) {
+  .content .title {
+    text-align: start;
+  }
+}
+@media only screen and (min-width: 1158px) {
+  .content .title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+}
+@media only screen and (min-width: 1158px) {
+  .content .text {
+    font-weight: 400;
+  }
+}
+
 .title {
   color: #2e2f42;
   font-weight: 500;
@@ -501,6 +606,26 @@ button:focus {
   background-color: #f4f4fd;
   padding-top: 96px;
   padding-bottom: 96px;
+}
+.section-team .container {
+  max-width: 320px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .section-team .container {
+    max-width: 768px;
+  }
+}
+
+@media only screen and (min-width: 1158px) {
+  .section-team .container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 @media only screen and (min-width: 1158px) {
   .section-team {
@@ -612,6 +737,27 @@ button:focus {
     padding-bottom: 120px;
   }
 }
+.section-portfolio .container {
+  max-width: 320px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .section-portfolio .container {
+    max-width: 768px;
+  }
+}
+
+@media only screen and (min-width: 1158px) {
+  .section-portfolio .container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
 .card-set-portfolio {
   display: flex;
   flex-wrap: wrap;
@@ -727,9 +873,14 @@ button:focus {
   flex-direction: column;
   flex-wrap: wrap;
   margin: 0 auto;
+  max-width: 320px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
+
 @media only screen and (min-width: 768px) {
   .footer .container {
+    max-width: 768px;
     flex-direction: row;
     row-gap: 24px;
   }
@@ -738,8 +889,12 @@ button:focus {
 @media only screen and (min-width: 1158px) {
   .footer .container {
     flex-wrap: nowrap;
+
     align-items: baseline;
     margin: 0 auto;
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 

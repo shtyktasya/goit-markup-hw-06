@@ -44,7 +44,7 @@ img {
 }
 @media only screen and (min-width: 768px) {
   .header {
-    padding: 0;
+    padding: 10px 0;
   }
 }
 @media only screen and (min-width: 1158px) {
@@ -895,14 +895,10 @@ button:focus {
   }
 }
 
-@media only screen and (min-width: 1158px) {
-  .footer {
-    padding: 100px 167px 100px 148px;
-  }
-}
 .footer .container {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
   flex-wrap: wrap;
   margin: 0 auto;
@@ -916,6 +912,7 @@ button:focus {
     max-width: 768px;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: start;
     text-align: center;
     row-gap: 24px;
   }
@@ -941,6 +938,7 @@ button:focus {
   .div-logo {
     width: 264px;
     margin-right: 24px;
+    text-align: start;
   }
 }
 
@@ -952,9 +950,21 @@ button:focus {
 
 .logo-footer {
   display: inline-block;
-  margin-right: 102px;
+  margin-left: 86px;
+  margin-right: 86px;
+  margin-bottom: 16px;
+}
+@media only screen and (min-width: 768px) {
+  .logo-footer {
+    margin-left: 0;
+  }
 }
 
+@media only screen and (min-width: 1158px) {
+  .logo-footer {
+    margin-right: 120px;
+  }
+}
 .span-footer {
   color: #f4f4fd;
 }
@@ -974,11 +984,6 @@ button:focus {
 
 .social-media {
   margin-bottom: 72px;
-}
-@media only screen and (min-width: 768px) {
-  .social-media {
-    margin-bottom: 104px;
-  }
 }
 
 @media only screen and (min-width: 1158px) {
@@ -1000,12 +1005,12 @@ button:focus {
     margin-bottom: 104px;
   }
 }
-
-@media only screen and (min-width: 1158px) {
+@media only screen and (min-width: 768px) {
   .social-media .social-text {
     text-align: start;
   }
 }
+
 .footer-social {
   display: flex;
   flex-direction: row;
@@ -1292,7 +1297,6 @@ button:focus {
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: #4d5ae5;
-  white-space: nowrap;
 }
 .custom-checkbox {
   display: inline-flex;

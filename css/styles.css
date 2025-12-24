@@ -895,6 +895,12 @@ button:focus {
   }
 }
 
+@media only screen and (min-width: 1158px) {
+  .footer {
+    padding-left: 0;
+  }
+}
+
 .footer .container {
   display: flex;
   align-items: center;
@@ -945,6 +951,7 @@ button:focus {
 @media only screen and (min-width: 1158px) {
   .div-logo {
     margin-right: 120px;
+    margin-bottom: 0;
   }
 }
 
@@ -1005,6 +1012,11 @@ button:focus {
     margin-bottom: 104px;
   }
 }
+@media only screen and (min-width: 1158px) {
+  .social-media {
+    margin-bottom: 0;
+  }
+}
 @media only screen and (min-width: 768px) {
   .social-media .social-text {
     text-align: start;
@@ -1058,7 +1070,7 @@ button:focus {
   .footer-form {
     align-items: center;
     justify-content: center;
-    margin: auto 24px 72px 96px;
+    margin: auto 24px auto 96px;
   }
 }
 
